@@ -1,2 +1,2 @@
 # RE-PC
-Simulasi Merakit PC berbasis VR
+Simulasi Merakit PC berbasis VR.
