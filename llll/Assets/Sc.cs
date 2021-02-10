@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class mbscript : MonoBehaviour
+public class Sc : MonoBehaviour
 {
     public Animator Animasi;
     // Start is called before the first frame update
