@@ -2,22 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider))]
 public class mbscript : MonoBehaviour
 {
-    public Animator Animasi;
+    public Animation Animasi;
     // Start is called before the first frame update
-    public void OnGazeEnter()
+    void start()
     {
-        if (Input.GetKeyDown("1"))
-        {
-            Debug.Log("You are entering the box");
-            Animasi.Play("mbtocase");
-        }
+       
     }
 
     // Update is called once per frame
     void Update()
     {
+        Animasi = GetComponent<Animation>();
+    }
 
+    public void mbtocase()
+    {
+        Animasi.Play("mbtocase");
     }
 }
