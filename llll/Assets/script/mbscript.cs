@@ -20,6 +20,6 @@ public class mbscript : MonoBehaviour
 
     public void mbtocase()
     {
-        Animasi.Play("mbtocase");
+        Animasi.Play("animmbcase");
     }
 }
